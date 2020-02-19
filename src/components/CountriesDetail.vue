@@ -3,6 +3,7 @@
     <h3>{{country.name}}</h3>
     <h4>Capital City: {{country.capital}}</h4>
     <h4>Population: {{country.population}}</h4>
+    <h4>Languages Spoken: {{country.languages.name}}</h4>
     <img :src="country.flag">
   </div>
 
